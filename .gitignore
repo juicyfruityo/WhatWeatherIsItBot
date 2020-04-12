@@ -1,0 +1,6 @@
+__*.csv
+__*.txt
+*.json
+*_v*.py
+*_v*.ipynb
+__*
