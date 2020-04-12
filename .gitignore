@@ -5,3 +5,4 @@ __*.txt
 *_v*.ipynb
 __*
 .idea
+config.py

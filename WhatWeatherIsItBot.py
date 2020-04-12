@@ -4,6 +4,8 @@ from WeatherManager import WeatherManager
 import socks
 import socket
 
+from config import TelegramBotToken
+
 
 def connect_proxy():
     '''
@@ -18,8 +20,7 @@ connect_proxy()
 oldcity_user = {}
 weather_manager = WeatherManager()
 
-TOKEN = "1263628954:AAGbKoAs9JbwI8gpjeKT4hOBDeVyCzIz0lE"
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(TelegramBotToken)
 
 # Keyboards.
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)

@@ -1,10 +1,12 @@
 import requests
 import json
 
+from config import OpenWeatherMapToken
+
 
 class WeatherManager:
     def __init__(self):
-        self.token = 'c96e8a61e1996f41d122a69312593c11'
+        self.token = OpenWeatherMapToken
 
     def __get_weather_now(self, city):
         '''
