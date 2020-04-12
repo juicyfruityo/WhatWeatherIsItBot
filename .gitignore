@@ -4,3 +4,4 @@ __*.txt
 *_v*.py
 *_v*.ipynb
 __*
+.idea
